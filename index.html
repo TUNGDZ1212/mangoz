@@ -101,13 +101,13 @@
       <input type="text" placeholder="example: 2.5M bounty " />
 
       <label>playing experience</label>
-      <textarea rows="3" placeholder="Describe your experienceÖ"></textarea>
+      <textarea rows="3" placeholder="Describe your experience‚Ä¶"></textarea>
 
       <label>Reasons for wanting to join Mangoz</label>
-      <textarea rows="3" placeholder="Please tell us why you want to join MangozÖ" required></textarea>
+      <textarea rows="3" placeholder="Please tell us why you want to join Mangoz‚Ä¶" required></textarea>
 
       <label>Time online per day</label>
-      <input type="text" placeholder="Example: 2ñ4 hours/day" />
+      <input type="text" placeholder="Example: 2‚Äì4 hours/day" />
 
       <button n>G?i don</button>
       <script>
@@ -119,7 +119,7 @@
       const data = {};
       inputs.forEach(i => data[i.previousElementSibling?.innerText] = i.value);
 
-      const webhook = "https://discord.com/api/webhooks/1442493251612315875/NvSYZw6X8olVnyelRQ5hNh9JBh86fZOsFN23XfKht_LxJdnDRo7DBFK8PgqoE7fzCS7v";
+      const webhook = "https://discord.com/api/webhooks/1443227060641202289/KGBBBtH7MDsdlB7WR6I5JF0gEpj0-qrpD1mslW4EAtIMvT1FI03iRLww0T1WM3fcFwIg";
 
       const payload = {
         content: "?? **Ticket Join Mangoz**",
@@ -127,7 +127,7 @@
           {
             title: "",
             color: 5793266,
-            fields: Object.keys(data).map(k => ({ name: k, value: data[k] || "KhÙng cÛ", inline: false })),
+            fields: Object.keys(data).map(k => ({ name: k, value: data[k] || "Kh√¥ng c√≥", inline: false })),
             timestamp: new Date().toISOString()
           }
         ]
@@ -146,3 +146,4 @@
   </div>
 </body>
 </html>
+
